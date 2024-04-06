@@ -1,0 +1,62 @@
+* {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f7eedd;
+}
+
+html {
+  background-color: #ace2e1;
+}
+
+.border {
+  border-radius: 50%;
+}
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #008dda;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #f7eedd;
+}
+
+@media (max-width: 480px) {
+  .principal {
+    flex-direction: column;
+  }
+  .nav-bar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .principal {
+    flex-direction: column;
+  }
+  .nav-bar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
